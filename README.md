@@ -16,7 +16,7 @@ todo.. refer to scraper.js and index.js for now
  * downloadImage - bool - whether to download images
  * maxConnections - int - the maximum number of connections
  * preProcess - function - process to run after downloading, must return a promise
- * gets a copy of response, resolving will save 
+ * gets a copy of response, resolve with this response, will save 
  * rejecting will stop file saving
  * postProcess - function - process to run after saving
 */
